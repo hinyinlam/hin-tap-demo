@@ -7,6 +7,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: hin-team
   providesApis:
     - hin-artifact
