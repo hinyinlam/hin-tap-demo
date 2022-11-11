@@ -27,7 +27,7 @@ spec:
       value:
         type: openapi
         location: 
-          path: "/api-docs"
+          path: "/v3//api-docs"
         owner: Hin Lam
         system: VMware Demo
         description: This is a restful API demo
