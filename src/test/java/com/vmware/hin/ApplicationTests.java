@@ -79,7 +79,7 @@ class ApplicationTests {
     @Test
     void shouldExposeOpenAPIEndpoint() {
 
-        var responseEntity = restTemplate.getForEntity("/api-docs", String.class);
+        var responseEntity = restTemplate.getForEntity("/v3/api-docs", String.class);
 
         assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
     }
