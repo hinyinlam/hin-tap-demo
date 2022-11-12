@@ -4,6 +4,7 @@ metadata:
   name: hin-artifact
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=hin-artifact"
+    backstage.io/techdocs-ref: dir:.
   tags:
     - java
     - demo
