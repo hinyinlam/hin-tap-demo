@@ -27,10 +27,10 @@ spec:
       value:
         type: openapi
         location: 
-          path: "/v3//api-docs"
-        owner: Hin Lam
-        system: VMware Demo
-        description: This is a restful API demo
+          path: "/v3/api-docs"
+        owner: "Hin Lam"
+        system: "VMware Demo"
+        description: "This is a restful API demo"
   source:
     git:
       ref:
