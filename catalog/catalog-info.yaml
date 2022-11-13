@@ -11,21 +11,21 @@ metadata:
     - spring
     - openapiv3
     - vmware-explore
-#  links:
-#    - url: https://spring.io
-#      title: Spring Framework
-#      type: framework
-#    - url: https://spec.openapis.org/oas/latest.html
-#      title: OpenAPI v3 Spec
-#      type: specification
+  links:
+    - url: https://spring.io
+      title: Spring Framework
+      type: framework
+    - url: https://spec.openapis.org/oas/latest.html
+      title: OpenAPI v3 Spec
+      type: specification
 
 spec:
   type: service
   lifecycle: experimental
   owner: default-team
   system: tap-gui
-#  providesApis:
-#    - api:for-developer/hin-artifact
+  providesApis:
+    - api:for-developer/hin-artifact
 #  consumesApis:
 #    - api:tanzu-system/system-api-for-demo
 #  subcomponentOf:
