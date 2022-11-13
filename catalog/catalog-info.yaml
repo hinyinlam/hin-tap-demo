@@ -24,8 +24,8 @@ spec:
   lifecycle: experimental
   owner: default-team
   system: tap-gui
-  providesApis:
-    - api:for-developer/hin-artifact
+#  providesApis:
+#    - api:for-developer/hin-artifact
 #  consumesApis:
 #    - api:tanzu-system/system-api-for-demo
 #  subcomponentOf:
